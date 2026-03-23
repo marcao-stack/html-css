@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <i id="burguer" class="material-icons" onclick="clickMenu ()">menu</i>
+        <menu id="itens">
+            <ul>
+                <li><a href="">Opção 1</a></li>
+                <li><a href="">Opção 2</a></li>
+                <li><a href="">Opção 3</a></li>
+                <li><a href="">Opção 4</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus quibusdam deserunt porro ab quam vel illum? Libero, alias ad quos adipisci voluptate sequi, reprehenderit asperiores, repellat numquam odio accusantium doloremque.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure aut distinctio minima, in soluta, quod aspernatur magnam quibusdam perspiciatis placeat obcaecati laudantium cupiditate autem impedit earum facere! Nostrum, debitis recusandae.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam dolore in asperiores sunt aliquam non nihil aliquid a porro sit quidem laborum consectetur mollitia nesciunt dolorum recusandae, vero illo ipsam?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque dolore numquam officiis animi repellendus exercitationem omnis at accusamus quidem dolores veritatis, explicabo laboriosam optio eum totam iusto aperiam alias quis?</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu () {
+        if (itens.style.display == 'block') {
+            itens.style.display = 'none'
+        } else {
+            itens.style.display = 'block'
+        }
+        }
+    </script>
+</body>
+</html>
