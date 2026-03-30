@@ -5,38 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flexible box</title>
     <style>
-
-        * {
-            font-family: Arial, Helvetica, sans-serif;
-            padding: 0%;
-            margin: 0%;
-        }
-
         div.conteiner {
             background-color: lightsalmon;
-
             display: flex;
-            flex-flow: row nowrap;
         }
 
         div.item {
             background-color: aquamarine;
             border: 1px solid black;
             text-align: center;
-            flex-basis: auto;
-            padding: 10px;
-           
+            flex: auto;
         }
     </style>
 </head>
 <body>
     <div class="conteiner">
         <div class="item">a</div>
-        <div class="item">Conteudo  um pouco maior</div>
+        <div class="item">b</div>
         <div class="item">c</div>
-        <div class="item">Conteudo maior</div>
+        <div class="item">d</div>
         <div class="item">e</div>
-        <div class="item">f</div>  
+        <div class="item">f</div>
     </div>
     
 </body>
